@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "EmailGuard Pro",
+  "description": "Analyze and detect email threats using VirusTotal and AbuseIPDB APIs.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+   "default_icon": {
+  "16": "icon16.png",
+  "48": "icon48.png",
+  "128": "icon128.png"
+}
+
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/*",
+    "https://api.abuseipdb.com/*",
+    "https://mail.google.com/*",
+    "https://outlook.live.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*", "https://outlook.live.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
+  
