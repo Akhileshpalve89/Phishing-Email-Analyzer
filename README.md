@@ -92,9 +92,9 @@ Threat Score: 85% (Danger)
 
 ### Team Members:
 
-Akhilesh Palve (MITU22BTCS0088)
+Akhilesh Palve
 
-Shubham Dorik (MITU22BTCS0815)
+Shubham Dorik 
 
 Guide: Prof. Rahul Bembade
 
