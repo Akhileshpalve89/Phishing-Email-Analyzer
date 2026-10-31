@@ -60,6 +60,22 @@ cd Phishing-Email-Threat-Analyzer
 
 --- 
 
+## 🌐 Host Live for Portfolio (GitHub Pages)
+You can showcase this project with a live portfolio page:
+
+1. Push this repository to GitHub
+2. Go to **Settings → Pages**
+3. Under **Build and deployment**, choose:
+   - **Source:** Deploy from a branch  
+   - **Branch:** `main` (or your default branch), folder `/ (root)`
+4. Save and wait for deployment
+5. Your live link will be:
+   - `https://akhileshpalve89.github.io/Phishing-Email-Analyzer/`
+
+> Note: this live page is a project showcase. The extension itself still runs by loading it in browser extensions.
+
+---
+
 ## 🖼️ Workflow Diagram
 ```mermaid
 flowchart TD
