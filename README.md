@@ -76,6 +76,20 @@ You can showcase this project with a live portfolio page:
 
 ---
 
+## 🌍 Host Live on Netlify
+You can deploy the same portfolio page (`index.html`) on Netlify:
+
+1. Sign in to Netlify
+2. Click **Add new site** → **Import an existing project**
+3. Connect GitHub and select this repository
+4. Netlify will auto-detect static hosting (the repo now includes `netlify.toml`)
+5. Click **Deploy site**
+6. After deployment, use the generated Netlify URL in your portfolio (you can later set a custom site name/domain)
+
+> Note: Netlify hosts the project showcase page. The browser extension still needs to be installed via `chrome://extensions` or extension stores.
+
+---
+
 ## 🖼️ Workflow Diagram
 ```mermaid
 flowchart TD
